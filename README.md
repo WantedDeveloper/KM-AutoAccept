@@ -1,22 +1,29 @@
-# VJ Auto Approve Bot
+# VJ Join Request Acceptor Bot
 
-**👾 Hey I'll Accept New Telegram Channel Or Group Join Request. Easy To Use And Simple.**
+**A Advance Join Request Accept Bot Which Can Accept Both All Pending Join Request And New Join Request With Login Feature.**
 
-**For Old Pending All Join Request Use This Repo [Click Here](https://github.com/VJBots/VJ-Join-Request-Acceptor-Bot)**
+**For New Join Request Use This Repo [Click Here](https://github.com/VJBots/VJ-Auto-Approval-Bot)**
 
-## 🚀 Demo Bot
-- [Demo Bot](https://youtube.com/@TechVJ)
+## How To Deploy [Video Tutorial](https://youtu.be/2Unf-cLbJLY)
 
-## How To Deploy [Video Tutorial](https://youtu.be/M76T4pKm6ks)
+#### Environment Variables
 
-## 🏷 Environment Variables
-  - `API_ID` - Your Telegram API ID.Get it [Here](my.telegram.org)
-  - `API_HASH` - Your Telegram API HASH.Get it [Here](my.telegram.org)
-  - `BOT_TOKEN` - Your Bot Token. Get it from [Here](https://t.me/BotFather)
-  - `CHID` - Your Force subscribe channel id , And Make Bot Admin Here
-  - `SUDO` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space between each.
-  - `MONGO_URI` - Mongodb database here, Watch [Video Tutorial](https://youtu.be/DAHRmFdw99o)
-  
-## 💫 Credits
- 
- - <b>[Tech VJ](https://youtube.com/@Tech_VJ)</b>
+- <b>`API_ID` : Get From [my.telegram.org](https://my.telegram.org)
+- `API_HASH` : Get From [my.telegram.org](https://my.telegram.org)
+- `BOT_TOKEN` : Get From [BotFather](https://telegram.me/BotFather)
+- `DB_URI` : Mongodb Database Url [Tutorial Watch Here](https://youtu.be/DAHRmFdw99o)
+- `ADMINS` : It mean Admin/Owner Id For Broadcasting Message.
+- `LOG_CHANNEL` : Log channel id start with -100xxxxxx</b>
+
+#### Commands To Use Bot
+- <b>`/start` : check bot is alive or not, know about bot
+- `/accept` : accept all pending request form channel or group.
+- `/login` : login your telegram account for string session
+- `/logout` : logout your telegram account 
+- `/broadcast` : reply this command to your broadcast message in bot.</b>
+
+## Update Channel [VJ Botz](https://telegram.me/vj_botz)
+
+## Support Group [VJ Support](https://telegram.me/vj_bot_disscussion)
+
+## Credit - [Tech VJ](https://youtube.com/@Tech_VJ)
