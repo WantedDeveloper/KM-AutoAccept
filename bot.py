@@ -68,7 +68,7 @@ async def chk(_, cb : CallbackQuery):
         ]]
     )
     add_user(cb.from_user.id)
-    await cb.edit_text(text="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @DeadxNone __**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+    await cb.message.edit_text(text="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @DeadxNone __**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
 
 @app.on_message(filters.command("users") & filters.user(cfg.SUDO))
 async def dbtool(_, m : Message):
